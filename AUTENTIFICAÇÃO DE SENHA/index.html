@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    Insira sua senha <input id="senha" type="password"> <br/>
+    <button onclick="senha()">Enviar</button>
+
+    <script type="text/javascript">
+
+        function senha(){
+            var senhacerta = ("feijoada");
+            var senha = (document.getElementById("senha"));
+
+            if (senha == senhacerta){
+                alert ("Parabéns pobre burro, acertou a senha");
+            }
+            else{
+                alert ("Insira a senha correta");
+            }
+
+
+        }
+
+
+    </script>
+
+
+</head>
+</html>
